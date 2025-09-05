@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="Imagens/Eu.jpg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou a Sabrina</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante apaixonado por tecnologia e educação. Estou aprendendo sobre pensamento computacional e
+            programação, explorando HTML, CSS e JavaScript. Busco aplicar meus conhecimentos em projetos criativos e
+            educativos. Confira alguns dos projetos que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagens/Cara.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Caricatura</h5>
+                        <p class="card-text">Meu primeiro projeto em JavaScript: uma caricatura simples e divertida. Foi
+                            uma ótima experiência para aprender os conceitos básicos de programação e dar os primeiros
+                            passos no desenvolvimento criativo.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagens/Corrida.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida</h5>
+                        <p class="card-text">Um jogo de corrida simples desenvolvido em JavaScript. Foi uma ótima
+                            oportunidade para aprender sobre movimentação de objetos, interação com o usuário e lógica
+                            de programação de forma divertida e prática.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagens/Quente e Frio.jpg" class="card-img-top"
+                        alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Quente e frio </h5>
+                        <p class="card-text">Um jogo em JavaScript baseado no conceito de “quente e frio”, onde o
+                            jogador deve encontrar o tesouro. Quanto mais perto do objetivo, menor o cursor do mouse
+                            fica. Foi uma experiência divertida para aprender sobre eventos de interação, lógica de
+                            programação e manipulação de elementos visuais.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Caricatura</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Meu primeiro projeto em JavaScript foi uma caricatura totalmente construída a partir de linhas de
+                        código, utilizando apenas formas geométricas básicas, como círculos e quadrados. Cada elemento
+                        da figura foi cuidadosamente planejado e desenhado com instruções de programação, o que me
+                        permitiu entender na prática como transformar lógica e criatividade em representações visuais.
+                        Esse projeto simples, mas desafiador, foi uma excelente oportunidade para desenvolver
+                        habilidades de pensamento computacional, precisão no código e criatividade digital, marcando meu
+                        primeiro passo no mundo do desenvolvimento de projetos interativos.</p>
+                    <img src="Imagens/Cara.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001123982508sp/sketches/pl4dph5v4">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Desenvolvi um jogo de corrida simples utilizando JavaScript, onde o jogador controla um veículo
+                        em movimento e precisa desviar de obstáculos para alcançar a maior pontuação possível. Todo o
+                        jogo foi construído a partir de linhas de código, incluindo a criação e movimentação dos
+                        elementos gráficos, detecção de colisões e controle da pontuação. Esse projeto me permitiu
+                        explorar conceitos essenciais de programação, como lógica condicional, manipulação de objetos e
+                        eventos do usuário, além de aprimorar minha criatividade ao transformar ideias em uma
+                        experiência interativa divertida.</p>
+                    <img src="Imagens/Corrida.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001123982508sp/sketches/vUfMCzRaP">Ver projeto ao
+                        vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Desenvolvi um jogo em JavaScript baseado no conceito de “quente e frio”, no qual o jogador deve
+                        encontrar um tesouro escondido na tela. Quanto mais próximo do tesouro, menor o cursor do mouse
+                        se torna, criando uma interação visual intuitiva e divertida. Todo o jogo foi construído a
+                        partir de linhas de código, incluindo a lógica de detecção de proximidade, a manipulação do
+                        cursor e a resposta visual ao movimento do jogador. Esse projeto me permitiu explorar conceitos
+                        avançados de programação, como eventos do mouse, cálculos de distância e feedback dinâmico, além
+                        de estimular minha criatividade ao transformar ideias abstratas em uma experiência interativa
+                        envolvente.</p>
+                    <img src="Imagens/Quente e Frio.jpg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001123982508sp/sketches/ZJwjZffiv">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Sabrina Nascimento</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
